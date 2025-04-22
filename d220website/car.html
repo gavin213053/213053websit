@@ -17,6 +17,7 @@
 	float: left;
 	height: 600px;
 	width: 1000px;
+	overflow: scroll;
 }
 #iten {
 	height: 600px;
@@ -36,15 +37,57 @@
 	height: 50px;
 	width: 1280px;
 }
+titlestyle {
+	font-family: "細明體_HKSCS";
+}
+titlestyle {
+	font-family: "細明體_HKSCS";
+	font-size: 24px;
+}
+.titlestyle {
+	font-family: "細明體_HKSCS";
+	font-size: 24px;
+}
 </style>
 <link href="SpryAssets/SpryMenuBarVertical.css" rel="stylesheet" type="text/css">
+<style type="text/css">
+body,td,th {
+	font-family: "微軟正黑體 Light";
+}
+</style>
 <script src="SpryAssets/SpryMenuBar.js" type="text/javascript"></script>
 </head>
 
 <body> 
 <div id="container">
   <div id="header"><img src="images/cat.jpg" width="1280" height="150"></div>
-  <div id="article"> id "article" 的內容放在這裡</div>
+  <div id="article">
+    <table width="616" height="353" border="1" align="center">
+      <tr>
+        <td height="39" colspan="2" align="center" bgcolor="#FFFFFF" class="MenuBarActive"><span class="titlestyle"><span class="MenuBarActive">嘉義ubike</span></span></td>
+      </tr>
+      <tr>
+        <td width="316" height="193" class="MenuBarVertical"><span class="MenuBarItemIE">嘉義市的 YouBike 微笑單車系統於 2020 年 12 月 15 日正式啟用，提供市民和遊客便捷的公共自行車服務。​目前，嘉義市內已設置超過 100 個站點，投放超過 750 輛自行車，方便民眾進行短程接駁和休閒騎乘。 ​</span></td>
+        <td><img src="images/105.jpg" width="300" height="200"></td>
+      </tr>
+      <tr>
+        <td height="39" colspan="2" align="center" class="titlestyle">嘉義客運</td>
+      </tr>
+      <tr>
+        <td><p data-start="0" data-end="126">嘉義汽車客運股份有限公司（簡稱嘉義客運）成立於1950年，前身為「嘉義株合自動車會社」，主要經營嘉義縣市及雲林縣市的公路客運、市區公車及遊覽車業務。</p>
+          <p data-start="128" data-end="137"><strong data-start="128" data-end="137">服務理念：</strong></p>
+        <p data-start="139" data-end="258">嘉義客運秉持「安全、舒適、親切、便捷」的服務宗旨，並以「微笑、專業、信心、愛心」作為企業文化的核心價值。</p></td>
+        <td><img src="images/1521542.jfif" width="300" height="200"></td>
+      </tr>
+      <tr>
+        <td height="39" colspan="2" align="center" class="titlestyle">嘉義火車</td>
+      </tr>
+      <tr>
+        <td>​嘉義火車站位於嘉義市西區，為臺灣鐵路管理局（臺鐵）的重要車站之一。​該站於1902年啟用，最初為磚木造建築。​隨著運輸需求增加，於1933年重建為鋼筋混凝土結構，被譽為「全島第一摩登車站」，展現折衷主義建築風格，融合簡潔線條與古典元素。 ​</td>
+        <td><img src="images/10701420-6826-11ed-aef6-8261b4f88b8c.jpg" width="300" height="200"></td>
+      </tr>
+    </table>
+  </div>
   <div id="iten">
     <ul id="MenuBar1" class="MenuBarVertical">
       <li><a href="car.html">交通工具</a>      </li>
